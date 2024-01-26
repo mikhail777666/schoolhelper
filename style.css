@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    scroll-behavior:smooth;
+    text-decoration: none;
+}
+
+a{
+    color:black;
+}
+.main{
+    position: absolute;
+    left:100px;
+    top:160px
+}
+
+.text{
+    font-size: 40px;
+    margin-top: 75px;
+}
+
+.textA{
+    font-size: 40px;
+    margin-top: 60px;
+    
+}
+.main-t{
+    position:absolute;
+    top:500px;
+    right:890px;
+    font-size:90px;
+}
+
+#blockA{
+    font-size: 40px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    width: 300px;
+    height: 200px;
+    background-color:#FF7C00;
+    border-radius: 30px;
+    margin-left: -340px;
+}
+
+#blockB{
+    font-size: 40px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    width: 300px;
+    height: 200px;
+    background-color:#FF9D40;
+    border-radius: 30px;
+    position: absolute;
+    margin-left: 350px;
+}
+
+#blockC{
+    font-size: 40px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    width: 300px;
+    height: 200px;
+    background-color:#FFB773;
+    border-radius: 30px;
+    
+}
+
+#blockD{
+    text-align: center;
+    font-size: 40px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    width: 300px;
+    height: 200px;
+    background-color:#A65100;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+
+.main-block{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    position: relative;
+    top:100px;
+}
+
+.main-block-low{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    position: relative;
+    top:300px;
+    
+}
+
+.zagolovok{
+    position: absolute; 
+    left:830px;
+    top:400px;
+    font-size: 24px;
+    border: 5px solid #a64;
+    border-radius:20px;
+    padding: 20px;
+    width: 550px;
+}
+
+.hello{
+    position: relative;
+    top:10px;
+    font-size: 80px ;
+    
+
+}
+
+.image{
+    position: absolute;
+    left:-100px;
+    top:-190px;
+    width:60px;
+    height:1000px;
+}
+
+.image2{
+    position: absolute;
+    right:-930px;
+    top:-190px;
+    width:60px;
+    height:1000px;
+}
+
+.razdeli-physici{
+    position: absolute;
+    font-size: 50px;
+    left:50px;
+    top:200px;
+}
+
+.image3{
+    position:absolute;
+    left: 500px;
+    top:170px;
+    width:300px;
+
+}
+
+.text-2{
+    font-size:30px;
+    position: absolute;
+    left:200px;
+
+}
+.zagolovok-1{
+    position: absolute; 
+    left:690px;
+    top:220px;
+    font-size: 24px;
+    border: 5px solid black;
+    border-radius:20px;
+    padding: 20px;
+    width: 550px;
+}
+
+
+.mechT{
+    position: absolute;
+    top:730px;
+    left:50px;
+    font-size: 25px;
+}
+
+.table{
+    position:absolute;
+    top:850px;
+    left:130px;
+}
+
+.mechT2{
+    position: absolute;
+    top:800px;
+    left:50px;
+    
+}
+
+.mechT1{
+    position: absolute;
+    top:600px;
+    left:50px;
+    font-size:60px;
+    background-color: rgb(81, 212, 81);
+    padding: 10px;
+    border-radius:10px;
+}
+.mechtT3{
+    position: absolute;
+    top:1250px;
+    left:50px;
+}
+
+.formuli{
+    color: black;
+    position:absolute;
+    top:1300px;
+    left:130px;
+}
+
+.formuli{
+    position:absolute;
+    top:1300px;
+    left:130px;
+}
+
+.formuli2{
+    position:absolute;
+    top:1350px;
+    left:130px;
+}
+
+.formuli2{
+    position:absolute;
+    top:1360px;
+    left:130px;
+}
+
+.formuli3{
+    position:absolute;
+    top:1300px;
+    left:340px;
+}
+
+.formuli4{
+    position:absolute;
+    top:1300px;
+    left:780px;
+}
+
+.termT1{
+    position: absolute;
+    top:1500px;
+    left:50px;
+    font-size:60px;
+    background-color: rgb(81, 212, 81);
+    padding: 10px;
+    border-radius:10px;
+}
+
+.termT{
+    position: absolute;
+    top:1650px;
+    left:50px;
+    font-size: 25px;
+}
+
+.Timg{
+    position: absolute;
+    top:1740px;
+    left:130px;
+}
+
+.EZ{
+    position: absolute;
+    top:2300px;
+    left:50px;
+    font-size:60px;
+    background-color: rgb(81, 212, 81);
+    padding: 10px;
+    border-radius:10px;
+}
+
+.ET{
+        position: absolute;
+        top:2440px;
+        left:50px;
+        font-size: 25px;
+}
+
+.Eimg{
+    position: absolute;
+    top:2550px;
+    left:130px;
+
+}
+.mechE{
+    position: absolute;
+    top:400px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 10px;
+    left:30px;
+    font-size: 25px;
+
+}
+
+.engimg{
+    position: absolute;
+    top:600px;
+    left:350px;
+}
+
+.hello2{
+    position: relative;
+    top:1050px;
+    font-size: 60px ;
+}
+
+.razdeli-angla{
+    position: absolute;
+    font-size: 50px;
+    left:50px;
+    top:1600px;
+}
+
+.engimg2{
+    position: absolute;
+    top:1900px;
+    left:350px;
+}
+
+.mz{
+    position: absolute; 
+    top:150px;
+    font-size: 24px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius:20px;
+    padding: 10px;
+    width:1400px;
+    left: 40px;
+    
+}
+.primeri{
+    position: absolute;
+    top:400px;
+    left:30px;
+}
+
+.mimg{
+    position: absolute;
+    top:470px;
+    left:100px;
+}
+
+.mimg1{
+    position: absolute;
+    top:1280px;
+    left:120px;
+    width:856px;
+}
+
+.mimg2{
+    position: absolute;
+    top:1566px;
+    left: 118px;
+    width:876px;
+}
+
+.mimg3{
+    position: absolute;
+    top: 2281px;
+    left: 113px;
+    width:881px;
+}
+
+.btn{
+    background-color: rgb(216, 205, 205);
+    width:200px;
+    height: 100px;
+    border-radius: 40px;
+    border: 10px solid rgb(81, 78, 78);
+    position: absolute;
+    left:1400px;
+    top:40px;
+    font-size: 38px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.btn1{
+    background-color: rgb(216, 205, 205);
+    width:200px;
+    height: 100px;
+    border-radius: 40px;
+    border: 10px solid rgb(81, 78, 78);
+    position: absolute;
+    left:1440px;
+    top:14px;
+    font-size: 38px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.btn2{
+    background-color: rgb(216, 205, 205);
+    width:200px;
+    height: 100px;
+    border-radius: 40px;
+    border: 10px solid rgb(81, 78, 78);
+    position: absolute;
+    left:1440px;
+    top:14px;
+    font-size: 38px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.map{
+    position: absolute;
+    top:300px;
+    border: 10px solid rgb(81, 78, 78);
+    left:170px;
+    width: 1300px;
+}
+
+.mapt{
+    position: absolute;
+    top:1470px;
+    font-size: 50px;
+    left:590px;
+
+}
+
+.last{
+    position: absolute;
+    top:1600px;
+    left:500px;
+    font-size: 40px;
+}
+
+.tabl2{
+    position: absolute;
+    top:1700px;
+    left:460px;
+    width:800px;
+    height: 500px;
+}
+
+.last1{
+    position: absolute;
+    top:2200px;
+    left:300px;
+    font-size: 40px;
+}
+
+.tabl3{
+    position: absolute;
+    top:2300px;
+    left:500px;
+    
+    
+}
